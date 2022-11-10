@@ -6,11 +6,12 @@
 }
 
 header{
-    background-color: #f4d000;
+    background-color:#05175d;
     display: flex;
     justify-content:space-between ;
     align-items: center;
     flex-wrap: wrap;
+    color: azure;
 }
 
 .log{
@@ -20,44 +21,106 @@ header{
     padding-left: 20px;
 }
 
+
 .logo{
     width: 110px;
+    cursor: pointer;
 }
+
  ul{
     display: flex;
     list-style: none;
     gap: 15px;
-    padding-right: 20px;
+    padding-right: 30px;
  }
 
  li{
     display: flex;
     font-size: 17px;
+    cursor: pointer;
  }
 
 
 .seach{
     display: flex;
-    height: 25px;
+    align-items: center;
+    height: 28px;
     gap: 10px;
-    
+}
 
-    
-}
 .se{
-    width:30px;
+    width:22px;
 }
+
 .text{
     font-size: 14px;
     border-radius: 5px;
     width: 300px;
-    
+    height: 30px;
 }
 
-p{
+.p-header{
     font-size: 30px;
+    cursor: pointer;
 }
 
 li:hover{
-transform: scale(1,1.2);
+transform: scaleX(1.2);
+transition: 0.2s;
 }
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Avion.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 50px;
+    padding-bottom: 140px;
+}
+
+.h2-hero{
+    color: #0d0f52;
+    padding-top:100px ;
+    font-weight: 400px;
+    font-size: 50px;
+}
+
+.p-hero{
+    color:#0d0f52;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.hero-text h2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    color:#0d0f52;    
+}
+
+.hero-text p{
+    color:#0d0f52;    
+}
+
+.hero-button{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+   border-radius: 10%;
+    /* Si le doy border-radius: ; por algun motivo pierdo la propiedad del button y queda como una caja cualquiera. */
+}
+
+
+
+
+
+
+
