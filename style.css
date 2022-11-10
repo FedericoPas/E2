@@ -114,7 +114,7 @@ transition: 0.2s;
     height: 50px;
     font-size: 30px;
     cursor: pointer;
-   border-radius: 10%;
+   border-radius: 10px;
     /* Si le doy border-radius: ; por algun motivo pierdo la propiedad del button y queda como una caja cualquiera. */
 }
 
