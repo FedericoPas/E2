@@ -6,12 +6,12 @@
 }
 
 header{
-    background-color:#05175d;
+    background-color:#000000;
     display: flex;
     justify-content:space-between ;
     align-items: center;
     flex-wrap: wrap;
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 
 .log{
@@ -42,7 +42,7 @@ header{
  
  .li-a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
  }
 
 
@@ -201,6 +201,7 @@ transition: 0.2s;
     transform: scale(1,1.1);
     background-color: rgb(0, 0, 0);
     transition: 1s;
+    border-color: rgb(255, 255, 255);
 }
 
 
@@ -234,6 +235,7 @@ transition: 0.2s;
     transform: scale(1,1.1);
     background-color: rgb(0, 0, 0);
     transition: 1s;
+    border-color: rgb(255, 255, 255);
 }
 
 
@@ -267,11 +269,103 @@ transition: 0.2s;
     transform: scale(1,1.1);
     background-color: rgb(0, 0, 0);
     transition: 1s;
+    border-color: aliceblue;
 }
 
 
 
+.redes{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.instagram img{
+    height: 41px;
+    width: 41px;
+    border-radius: 11px;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.facebook img{
+    height: 41px;
+    width: 41px;
+    border-radius: 6px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}.celular img{
+    height: 41px;
+    width: 41px;
+    border-radius: 5px;
+}
+.celular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #05175d;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.mapa{
+    width: 500px;
+    height: 330px;
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: aliceblue;
+}
+.redes h3{
+    font-size:40px;
+    color: aliceblue;
+    font-weight: 100;
+}
 
+.instagram a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: larger;
+}
+.facebook a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: larger;
+}
+.celular a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: larger;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer img{
+    width: 100px;
+}
 
 
 
