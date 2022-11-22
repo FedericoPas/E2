@@ -49,6 +49,7 @@ header{
 .seach{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 28px;
     gap: 10px;
     cursor: pointer;
@@ -79,7 +80,7 @@ transition: 0.2s;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(/Avion.jpg) ;
+    background-image: url(/assets/Avion.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     gap: 50px;
@@ -144,7 +145,7 @@ transition: 0.2s;
     
     /* Si le doy border-radius: ; por algun motivo pierdo la propiedad del button y queda como una caja cualquiera. */
 }
-.card{
+.card-card{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,6 +153,16 @@ transition: 0.2s;
     padding-top: 40px;
     padding-bottom: 40px;
     background-color:#05175d;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #05175d;
+    text-align: center;
+}
+.card h3{
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 40px;
 }
 
 .card-qatar img{
@@ -238,6 +249,11 @@ transition: 0.2s;
     border-color: rgb(255, 255, 255);
 }
 
+.card h3{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
 
 .card-qatar{
     background-color: #111111;
@@ -280,6 +296,7 @@ transition: 0.2s;
     align-items: center;
     flex-direction: column;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .instagram img{
     height: 41px;
