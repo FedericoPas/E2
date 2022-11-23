@@ -1,4 +1,4 @@
-@media (max-width: 1088px){
+@media (max-width: 1118px){
     header{
         padding-top: 20px;
         flex-wrap: wrap;
@@ -60,6 +60,34 @@
         padding-top: 10px;
         padding-bottom: 30px;
     }
+    .menu{
+        display: flex;
+        position: relative;
+    }
+    #opciones:checked + .menuq{
+        display: flex;
+    }
+
+    .heaeder-co{
+        display: flex;
+        justify-content: space-around;
+    }
+    .prueba{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: black;
+    }
+    .menuq{     
+    
+        background-color: black;
+        padding-right: 200px;
+        padding-bottom: 10px;
+    }
+    .menu{
+        cursor:pointer;
+    }
 }
 
 
@@ -114,6 +142,18 @@
     .mapa{
         
         display: none;
+    }
+    .menu{
+        padding-left: 0;
+        width: 40px;
+        padding-right: 15px;
+    }
+    .prueba{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: black;
     }
     
 }
